@@ -1,0 +1,72 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\title{<FULL TITLE>}
+\author{Inacio F. Vasquez}
+\date{\today}
+
+% ---------- theorem environments ----------
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+% ---------- document ----------
+\begin{document}
+\maketitle
+
+\begin{abstract}
+<ABSTRACT TEXT>
+\end{abstract}
+
+\section{Introduction}
+<INTRODUCTION TEXT>
+
+\section{Definitions}
+<FORMAL DEFINITIONS>
+
+\section{Main Results}
+<STATEMENTS OF THEOREMS>
+
+\section{Proofs}
+<PROOFS OR PROOF SKETCHES>
+
+\section{Discussion}
+<LIMITATIONS AND SCOPE>
+
+\section*{Acknowledgments}
+None.
+
+\section*{Data and Code Availability}
+All artifacts required to verify the claims of this manuscript are contained
+in the associated GitHub repository.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+
