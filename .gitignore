@@ -9,3 +9,15 @@ urf-*/
 overlap-rigidity-*/
 phase-transition-pnp*/
 yang-mills-hs-gap-cert/
+
+# transient latex/build outputs
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
